@@ -2,7 +2,7 @@
 name = "s_proxy"
 version = "1.2.1"
 description = "Local Hybrid VPN Proxy Hub for Surfshark and GoLogin"
-authors = ["0xdonniechu <211609259+0xdonniechu@users.noreply.github.com>"]
+authors = ["0xdchu <211609259+0xdchu@users.noreply.github.com>"]
 edition = "2021"
 
 [lib]
