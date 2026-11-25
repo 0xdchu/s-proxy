@@ -36,7 +36,7 @@ A Tauri 2 tray-first app that turns Surfshark VPN into local SOCKS5/HTTP proxy e
 - Never silently change default port ranges (`10800..10899`), bind address (`127.0.0.1` only by default), or fail-closed leak rules. Flag it and ask.
 - Never commit `.conf`, `.key`, `.ovpn`, or GoLogin tokens. This grep must stay at 0 hits: `git grep -iE "PrivateKey\s*=|gl_eyJ|Bearer eyJ"`
 - No React, Vue, Tailwind, SQLite, or telemetry (see `AGENTS.md`). A new dependency is a question, not a decision.
-- Git: account `0xdonniechu`, author `0xdonniechu <211609259+0xdonniechu@users.noreply.github.com>`. One branch per change, merged to `main` only when asked.
+- Git: account `0xdchu`, author `0xdchu <211609259+0xdchu@users.noreply.github.com>`. One branch per change, merged to `main` only when asked.
 - Plane: project `SProxy` (identifier `SPX`, ID `f2399cf3-c3eb-4f1f-a575-d42af01f17d3`) in workspace `stupidrich`. Vietnamese titles/comments; English code/terms. Commit messages never cite `SPX-n`; Plane comments cite the commit.
 
 ## Session state
